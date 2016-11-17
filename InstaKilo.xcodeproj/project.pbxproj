@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E013A0A31A7C777200819795 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E013A0A21A7C777200819795 /* main.m */; };
+		E013A0A61A7C777200819795 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E013A0A51A7C777200819795 /* AppDelegate.m */; };
+		E013A0A91A7C777200819795 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E013A0A81A7C777200819795 /* ViewController.m */; };
+		E013A0AC1A7C777200819795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E013A0AA1A7C777200819795 /* Main.storyboard */; };
+		E013A0AE1A7C777200819795 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E013A0AD1A7C777200819795 /* Images.xcassets */; };
+		E013A0B11A7C777200819795 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E013A0AF1A7C777200819795 /* LaunchScreen.xib */; };
+		E013A0BD1A7C777200819795 /* InstaKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E013A0BC1A7C777200819795 /* InstaKTests.m */; };
+		E013A0C81A7D5EEC00819795 /* InstaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E013A0C71A7D5EEC00819795 /* InstaCollectionViewCell.m */; };
+		E013A0CB1A7D886500819795 /* InstaCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E013A0CA1A7D886500819795 /* InstaCollectionReusableView.m */; };
+		E013A0CE1A7D9D7300819795 /* InstaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E013A0CD1A7D9D7300819795 /* InstaDetailViewController.m */; };
+		E0A6F08E1A7ED7CD008EDC0B /* Insta.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A6F08D1A7ED7CD008EDC0B /* Insta.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E013A0B71A7C777200819795 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E013A0951A7C777100819795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E013A09C1A7C777100819795;
+			remoteInfo = InstaK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E013A09D1A7C777200819795 /* InstaK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E013A0A11A7C777200819795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E013A0A21A7C777200819795 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E013A0A41A7C777200819795 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E013A0A51A7C777200819795 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E013A0A71A7C777200819795 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E013A0A81A7C777200819795 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E013A0AB1A7C777200819795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E013A0AD1A7C777200819795 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E013A0B01A7C777200819795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E013A0B61A7C777200819795 /* InstaKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E013A0BB1A7C777200819795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E013A0BC1A7C777200819795 /* InstaKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaKTests.m; sourceTree = "<group>"; };
+		E013A0C61A7D5EEC00819795 /* InstaCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InstaCollectionViewCell.h; path = ../InstaCollectionViewCell.h; sourceTree = "<group>"; };
+		E013A0C71A7D5EEC00819795 /* InstaCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InstaCollectionViewCell.m; path = ../InstaCollectionViewCell.m; sourceTree = "<group>"; };
+		E013A0C91A7D886500819795 /* InstaCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstaCollectionReusableView.h; sourceTree = "<group>"; };
+		E013A0CA1A7D886500819795 /* InstaCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstaCollectionReusableView.m; sourceTree = "<group>"; };
+		E013A0CC1A7D9D7300819795 /* InstaDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstaDetailViewController.h; sourceTree = "<group>"; };
+		E013A0CD1A7D9D7300819795 /* InstaDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstaDetailViewController.m; sourceTree = "<group>"; };
+		E0A6F08C1A7ED7CD008EDC0B /* Insta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Insta.h; sourceTree = "<group>"; };
+		E0A6F08D1A7ED7CD008EDC0B /* Insta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Insta.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E013A09A1A7C777100819795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E013A0B31A7C777200819795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E013A0941A7C777100819795 = {
+			isa = PBXGroup;
+			children = (
+				E013A09F1A7C777200819795 /* InstaKilo */,
+				E013A0B91A7C777200819795 /* InstaKiloTests */,
+				E013A09E1A7C777200819795 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E013A09E1A7C777200819795 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E013A09D1A7C777200819795 /* InstaK.app */,
+				E013A0B61A7C777200819795 /* InstaKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E013A09F1A7C777200819795 /* InstaKilo */ = {
+			isa = PBXGroup;
+			children = (
+				E013A0A71A7C777200819795 /* ViewController.h */,
+				E013A0A81A7C777200819795 /* ViewController.m */,
+				E013A0C61A7D5EEC00819795 /* InstaCollectionViewCell.h */,
+				E013A0C71A7D5EEC00819795 /* InstaCollectionViewCell.m */,
+				E013A0C91A7D886500819795 /* InstaCollectionReusableView.h */,
+				E013A0CA1A7D886500819795 /* InstaCollectionReusableView.m */,
+				E013A0AA1A7C777200819795 /* Main.storyboard */,
+				E013A0CC1A7D9D7300819795 /* InstaDetailViewController.h */,
+				E013A0CD1A7D9D7300819795 /* InstaDetailViewController.m */,
+				E0A6F08C1A7ED7CD008EDC0B /* Insta.h */,
+				E0A6F08D1A7ED7CD008EDC0B /* Insta.m */,
+				E013A0AD1A7C777200819795 /* Images.xcassets */,
+				E013A0A01A7C777200819795 /* Supporting Files */,
+			);
+			name = InstaKilo;
+			path = InstaK;
+			sourceTree = "<group>";
+		};
+		E013A0A01A7C777200819795 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E013A0AF1A7C777200819795 /* LaunchScreen.xib */,
+				E013A0A41A7C777200819795 /* AppDelegate.h */,
+				E013A0A51A7C777200819795 /* AppDelegate.m */,
+				E013A0A11A7C777200819795 /* Info.plist */,
+				E013A0A21A7C777200819795 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E013A0B91A7C777200819795 /* InstaKiloTests */ = {
+			isa = PBXGroup;
+			children = (
+				E013A0BC1A7C777200819795 /* InstaKTests.m */,
+				E013A0BA1A7C777200819795 /* Supporting Files */,
+			);
+			name = InstaKiloTests;
+			path = InstaKTests;
+			sourceTree = "<group>";
+		};
+		E013A0BA1A7C777200819795 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E013A0BB1A7C777200819795 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E013A09C1A7C777100819795 /* InstaK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E013A0C01A7C777200819795 /* Build configuration list for PBXNativeTarget "InstaK" */;
+			buildPhases = (
+				E013A0991A7C777100819795 /* Sources */,
+				E013A09A1A7C777100819795 /* Frameworks */,
+				E013A09B1A7C777100819795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaK;
+			productName = InstaK;
+			productReference = E013A09D1A7C777200819795 /* InstaK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E013A0B51A7C777200819795 /* InstaKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E013A0C31A7C777200819795 /* Build configuration list for PBXNativeTarget "InstaKTests" */;
+			buildPhases = (
+				E013A0B21A7C777200819795 /* Sources */,
+				E013A0B31A7C777200819795 /* Frameworks */,
+				E013A0B41A7C777200819795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E013A0B81A7C777200819795 /* PBXTargetDependency */,
+			);
+			name = InstaKTests;
+			productName = InstaKTests;
+			productReference = E013A0B61A7C777200819795 /* InstaKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E013A0951A7C777100819795 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jozef Lipovsky";
+				TargetAttributes = {
+					E013A09C1A7C777100819795 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E013A0B51A7C777200819795 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E013A09C1A7C777100819795;
+					};
+				};
+			};
+			buildConfigurationList = E013A0981A7C777100819795 /* Build configuration list for PBXProject "InstaKilo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E013A0941A7C777100819795;
+			productRefGroup = E013A09E1A7C777200819795 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E013A09C1A7C777100819795 /* InstaK */,
+				E013A0B51A7C777200819795 /* InstaKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E013A09B1A7C777100819795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E013A0AC1A7C777200819795 /* Main.storyboard in Resources */,
+				E013A0B11A7C777200819795 /* LaunchScreen.xib in Resources */,
+				E013A0AE1A7C777200819795 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E013A0B41A7C777200819795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E013A0991A7C777100819795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E013A0A91A7C777200819795 /* ViewController.m in Sources */,
+				E0A6F08E1A7ED7CD008EDC0B /* Insta.m in Sources */,
+				E013A0A61A7C777200819795 /* AppDelegate.m in Sources */,
+				E013A0C81A7D5EEC00819795 /* InstaCollectionViewCell.m in Sources */,
+				E013A0A31A7C777200819795 /* main.m in Sources */,
+				E013A0CB1A7D886500819795 /* InstaCollectionReusableView.m in Sources */,
+				E013A0CE1A7D9D7300819795 /* InstaDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E013A0B21A7C777200819795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E013A0BD1A7C777200819795 /* InstaKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E013A0B81A7C777200819795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E013A09C1A7C777100819795 /* InstaK */;
+			targetProxy = E013A0B71A7C777200819795 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E013A0AA1A7C777200819795 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E013A0AB1A7C777200819795 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E013A0AF1A7C777200819795 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E013A0B01A7C777200819795 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E013A0BE1A7C777200819795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E013A0BF1A7C777200819795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E013A0C11A7C777200819795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstaK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ali.InstaKilo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E013A0C21A7C777200819795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstaK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ali.InstaKilo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E013A0C41A7C777200819795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InstaKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaK.app/InstaK";
+			};
+			name = Debug;
+		};
+		E013A0C51A7C777200819795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InstaKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaK.app/InstaK";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E013A0981A7C777100819795 /* Build configuration list for PBXProject "InstaKilo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E013A0BE1A7C777200819795 /* Debug */,
+				E013A0BF1A7C777200819795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E013A0C01A7C777200819795 /* Build configuration list for PBXNativeTarget "InstaK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E013A0C11A7C777200819795 /* Debug */,
+				E013A0C21A7C777200819795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E013A0C31A7C777200819795 /* Build configuration list for PBXNativeTarget "InstaKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E013A0C41A7C777200819795 /* Debug */,
+				E013A0C51A7C777200819795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E013A0951A7C777100819795 /* Project object */;
+}
